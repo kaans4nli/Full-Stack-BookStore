@@ -1,6 +1,6 @@
 # Full-Stack-BookStore
 
-This project is an e-commerce web application that provides user-interfaces for users to browse and purchase books.
+The purpose of the project is an e-commerce web application that provides user-interfaces for users to browse and purchase books.
 
 # Pages
 
