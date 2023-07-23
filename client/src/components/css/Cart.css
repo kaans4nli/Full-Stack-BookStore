@@ -1,0 +1,147 @@
+.cartpage{
+
+    margin: 0px auto ;
+    width: 80%;
+    display: block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: bisque;
+    border-radius: 5px;
+    min-height: 100vh;
+}
+
+.cartpage-header{
+    font-size: large;
+    font-weight: 600;
+    padding: 5px;
+    text-align:center;
+    border-bottom: 1px solid black;
+
+}
+
+.cartpage-empty{
+    margin: auto auto;;
+    text-align:center;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin :40px 20px;
+    background-color: white;
+}
+
+
+.cart-image{
+    width: 30%;
+    max-width: 100px;
+    max-height: 90px;
+    object-fit: scale-down;
+}
+
+.cart-name{
+    text-transform: uppercase;
+    margin: 10px 10px;
+    width: 300px;
+}
+
+.cart-price{ 
+    margin: 10px 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.cart-function{
+    display: flex;
+    margin-left: 30px;
+
+}
+
+.cart-remove-button{
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.cart-add-button{
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+
+
+
+}
+
+.amount-text{
+    align-self: center;
+    margin: auto 5px;
+    width: 15px;
+}
+
+.sum-price{
+    margin-left: auto;
+    font-size: medium;
+    font-weight: 700;
+
+}
+
+.total-price{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.total-price>span{
+    margin-left: 5px;
+}
+
+.cart-payment-button{
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: 10px;
+} 
+
+.cart-payment-button>.icon{
+    margin-left: 5px;
+    color: green;
+    font-size: 20px;
+}
+
+
+.cart-remove-button:active{
+    transform: translate(2px,1px);
+}
+
+.cart-add-button:active{
+    transform: translate(2px,1px);
+}
